@@ -17,7 +17,7 @@ def PMS(request):
     orders = Order.objects.filter(customer=customer) #取條件
     for i in orders:
         print(i.price, i.customer.name)
-    print('ji')
+    print('ji')jlfdjledjflojfwerof
     return render(request, 'hi.html', context={
         'customerList': customerList,
         'hi': 'jeifj;fijfil',

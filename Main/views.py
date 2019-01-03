@@ -12,7 +12,7 @@ def PMS(request):
     order = Order(price=100,customer=customer)
     order.save()
     customerList = Customer.objects.all() #取所有
-    for i in customerList:
+    for i in customerList:fdjslkfjsd
         print(i.name)
     orders = Order.objects.filter(customer=customer) #取條件
     for i in orders:
